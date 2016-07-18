@@ -1,2 +1,29 @@
 # c64-choplifter-clone
-A pixel-perfect C64 choplifter clone written in Java - 25 years after the original game came out
+A pixel-perfect Commodore-64 choplifter clone written in Java
+AWT - 25 years after the original game came out on C64.
+
+This is a fun project I've done back in 2007 - a present for Dan
+Gorlin & Dane Bigham - who wrote *choplifter* 25 years before
+(in 1982!!).
+
+![Screenshot on Windows NT!!!](./doc/joplifter.png)
+
+## Play it, play it, play it now!!!
+
+Hell ya, this is oldschool. To compile install `ant` and run:
+
+```
+$ ant dist
+```
+
+To run type:
+
+```
+$ java -jar dist/joplifter.jar
+```
+
+Use the *ARROW* keys to navigate. Longpress *SPACE* to turn the
+helicopter around. Hit *SPACE* shortly to shoot.
+
+Collect up to ten humans at once and bring them back to the home base.
+They are hungry!

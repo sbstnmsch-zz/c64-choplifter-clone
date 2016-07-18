@@ -1,0 +1,27 @@
+ 
+<project name="joplifter" default="compile" basedir=".">
+    <property name="binDir" location="classes" />
+    <property name="srcDir" location="src" />
+    <property name="jarDir" location="dist" />
+    <property name="jarFile" location="${jarDir}/joplifter.jar" />
+	
+    <target name="compile">
+        <javac srcdir="${srcDir}" destdir="${binDir}">
+            
+        </javac>
+    </target>
+	
+    <target name="dist" depends="compile">
+        <jar destfile="${jarFile}" baseDir="${binDir}" >
+            <manifest>
+                <attribute name="Main-Class" value="org.homeunix.joplifter.JopLifter" />
+            </manifest>
+        </jar>
+    </target>
+	
+    <target name="clean">
+        <delete dir="${binDir}" />
+        <mkdir dir="${binDir}" />
+    </target>
+	
+</project>
