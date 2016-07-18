@@ -6,7 +6,7 @@ This is a fun project I've done back in 2007 - a present for Dan
 Gorlin & Dane Bigham - who wrote *choplifter* 25 years before
 (in 1982!!).
 
-![Screenshot on Windows NT!!!](./doc/joplifter.png)
+![Rescue them, - they are hungry!!](./doc/joplifter.gif)
 
 ## Play it, play it, play it now!!!
 
@@ -25,5 +25,6 @@ $ java -jar dist/joplifter.jar
 Use the *ARROW* keys to navigate. Longpress *SPACE* to turn the
 helicopter around. Hit *SPACE* shortly to shoot.
 
-Collect up to ten humans at once and bring them back to the home base.
+Collect up to ten humans at once and bring them back to the
+home base.
 They are hungry!
