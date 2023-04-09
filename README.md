@@ -22,6 +22,13 @@ To run type:
 $ java -jar dist/joplifter.jar
 ```
 
+If the game appears too small on your screen, you can add the
+`sun.java2d.uiScale` to scale it up. To run at 4x size:
+
+```
+java -Dsun.java2d.uiScale=4 -jar dist/joplifter.jar
+```
+
 Use the *ARROW* keys to navigate. Longpress *SPACE* to turn the
 helicopter around. Hit *SPACE* shortly to shoot.
 
